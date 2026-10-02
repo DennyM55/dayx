@@ -15,14 +15,23 @@ public class HealthyTipEntity {
     private String icon;
     private String title;
     private String tip;
+    private String category;
 
     public HealthyTipEntity() {
     }
 
-    public HealthyTipEntity(String icon, String title, String tip) {
+    public HealthyTipEntity(
+            String icon,
+            String title,
+            String tip,
+            String category) {
         this.icon = icon;
         this.title = title;
         this.tip = tip;
+        this.category = category;
+    }
+    public String getCategory() {
+        return category;
     }
 
     public Long getId() {
