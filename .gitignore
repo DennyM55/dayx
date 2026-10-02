@@ -1,0 +1,32 @@
+# IDE and editor metadata
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+
+# Build output and dependency caches
+build/
+target/
+.gradle/
+node_modules/
+dist/
+coverage/
+*.class
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Local logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Local GitHub modernization tooling
+.github/modernize/
